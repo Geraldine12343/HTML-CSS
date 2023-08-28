@@ -1,31 +1,93 @@
-<!-- #siempre empezar poniendo html:5 para la estructura y luego go live abajo a la derecha en azul para ver la pagina en google -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geraldine</title>
+    <title>Document</title>
 </head>
-<body style="background-color:rgb(192, 199, 209)">
-    <h1 style="color:rgb(65, 37, 5)">Welcome to my first page</h1>
-    <h2 style="margin-left:2.5%; color:rgb(87, 63, 50)">About Me</h2>
-    <ul>Hello! My name is Geraldine, I'm a model, studying programming, and a love of animals, especially my pet Canela. My hobbies are: dancing, going to the gym, modelling, and listening to music.</ul>
 
-    <ol>My favorite songs:</ol><!-- no es ol ni ul, eso es para listas, es p de parrafo -->
+<body>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
 
-     <a href=https://youtu.be/4ck6ehyKwA4?si=yyswNuJhN9PcGH_E style="margin-left:2.5%; color: rgba(6, 99, 116, 0.822);">C.R.O - Lo Que Soy</a> <!--el style margin es para correr la oracion de lugar-->
-<hr>
-     <a href=https://youtu.be/bpOSxM0rNPM style="margin-left:2.5%; color: rgba(6, 99, 116, 0.822);">Arctic Monkeys - 'Do I Wanna Know?'</a>
-<hr>
-     <a href=https://youtu.be/c1skv9G_f6k style="margin-left:2.5%; color: rgba(6, 99, 116, 0.822);">C.R.O - A Tu Manera'</a>
+        table {
+            width: 100%;
+        }
+    </style>
 
-<hr>
-     <a href=https://youtu.be/38g9iKBS7oQ?si=p1ZIoALNvAv35Rwz  style="margin-left:2.5%; color: rgba(6, 99, 116, 0.822);">Dangerous Woman - Ariana Grande'</a>
+
+    <table>
+          
+        <!-- tabla simple -->
+
+        <tr>
+            <th>Fila 1</th>
+            <th> fila 1 columna 1 </th>
+            <th> fila 1 columna 2 </th>
+            <th> fila 1 columna 3 </th>
+        </tr>
     
-    <ol>My favorite singer is CRO:</ol>
-    <img src="https://pxccdn.ciudadano.news/ciudadano/072020/1593702067288/cro.jpg" alt="photo of my favorite singer: CRO">
-<!-- si quiero poner foto de mi galeria buscar el link de la foto de donde esta ubicada -->
+        <tr>
+            <th>Fila 2</th>
+            <th> fila 2 columna 1 </th>
+            <th> fila 2 columna 2 </th>
+            <th> fila 2 columna 3 </th>
+        </tr>
+
+        <tr>
+            <th>Fila 3</th>
+            <th> fila 3 columna 1 </th>
+            <th> fila 3 columna 2 </th>
+            <th> fila 3 columna 3 </th>
+        </tr>
+
+        <!-- 3 filas 4 columnas-->
+          
+
+
+        <table>
+            <hr>
+            <hr>
+            <hr>
+             <!-- tabla compleja -->
+             <!-- colspan hace q la columna tome mas espacio de columna, rowspan es para las lineas -->
+            <tr>
+                <th>1</th>
+                <th colspan="2"> 222 </th>
+                <th rowspan="3"> 36 </th>
+                <th>  68 </th>
+            </tr>
+        
+            <tr>
+                <th>4</th>
+                <th> 555 </th>
+                <th> 25 </th>
+                <th> 2 </th>
+            </tr>
     
-    
+            <tr>
+                <th colspan="2"> 2</th>
+                <th> 6 </th>
+                <th> 89 </th>
+                <th> 14 </th>
+            </tr>
+
+            
+            <tr>
+                <th colspan="3"> 15</th>
+                <th> 166 </th>
+                <th> 999  </th>
+                <th> 64 </th>
+            </tr>
+
+    </table>
+</body>
+
 </html>
